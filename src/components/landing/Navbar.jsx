@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../../assets/logo.svg';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +20,8 @@ function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center ">
-              {/* <img src="/logo.png" alt="DevSentinel Logo" className="h-8 w-auto" /> */}
-              <span className="text-2xl font-bold text-btn1">DevSentinel</span>
+              <img src= {logo} alt="DevSentinel Logo" className="h-12 w-auto" />
+              {/* <span className="text-2xl font-bold text-btn1">DevSentinel</span> */}
             </Link>
           </div>
 
@@ -50,11 +51,11 @@ function Navbar() {
             aria-label="Toggle navigation menu"
           >
             {isOpen ? (
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             )}
