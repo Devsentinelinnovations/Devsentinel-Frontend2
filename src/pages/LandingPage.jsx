@@ -28,7 +28,7 @@ function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen fade-in">
         <Navbar/>
         <div className="pt-2 pb-16"> {/* Increased padding */}
           <div className='flex flex-col md:flex-row justify-between items-center px-6 md:px-8 max-w-7xl mx-auto gap-12'>

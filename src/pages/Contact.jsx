@@ -1,11 +1,13 @@
+import "../styles/animations.css";
 import Address from "../components/contact/Address";
 import Business from "../components/contact/Business";
 import Student from "../components/contact/Student";
+import Footer from "../components/landing/Footer";
 import Navbar from "../components/landing/Navbar";
 
 function Contact() {
   return (
-    <div>
+    <div className="fade-in">
       <Navbar />
       <div className="max-w-7xl mx-auto px-5 xl:px-0  ">
         <div className="flex flex-col items-start gap-4 mt-20 mb-10 lg:my-20">
@@ -24,6 +26,7 @@ function Contact() {
         <Student />
         <Business />
         <Address />
+        <Footer />
       </div>
     </div>
   );

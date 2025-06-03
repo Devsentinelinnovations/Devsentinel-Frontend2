@@ -7,7 +7,7 @@ import Footer from "../components/landing/Footer";
 
 function About() {
   return (
-    <div>
+    <div className="fade-in">
       <Navbar />
       <div className="flex flex-col items-center gap-4 my-20 lg:mx-0 mx-5">
         <p className="text-sm text-text bg-text/10 font-semibold items-center px-3 py-1 border rounded-2xl">
@@ -45,7 +45,7 @@ function About() {
 
       <Values />
       <Team />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
