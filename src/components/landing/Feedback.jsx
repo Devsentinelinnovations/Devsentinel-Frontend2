@@ -5,35 +5,35 @@ function Feedback() {
   const testimonials = [
     {
       id: 1,
-      text: "The course material was comprehensive and well-structured. I learned more in 3 months than I did in a year of self-study.",
+      text: "The course was comprehensive and well-structured. I learned more in 3 months than I did in a year of self-study.",
       name: "Alex Thompson",
-      course:  "Full Stack Development Student"
+      course:  "Web Development"
     },
     {
       id: 2,
       text: "The hands-on projects and real-world applications helped me understand complex concepts easily. Highly recommended!",
       name: "Sarah Olatunji",
-      course: "Cloud Computing Student"
+      course: "Data Analysis"
     },
     {
       id: 3,
       text: "The mentorship and community support were invaluable. I landed my dream job right after completing the course.",
       name: "Michael Olaoye",
-      course: "DevOps Engineering Student"
+      course: "UI/UX Design"
     },
      {
       id: 4,
       text: "I used to watch random YouTube tutorials, but I wasn’t improving. This course gave me a clear path. The feedback after every task helped me stay on track.",
       name: "Emeka Chukwuma",
-      course: "Web Development Student"
+      course: "Cybersecurity"
     }
   ];
 
   return (
-    <div className="py-16 px-4 md:px-8">
+    <div className="py-5 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <h1 className='text-2xl md:text-4xl font-bold text-center mb-12'>
-          Real Feedback from Real <br /> Students & Business Partners
+          Feedback from <br /> Students & Business Partners
         </h1>
         
         <div className="flex justify-center mb-16">

@@ -1,6 +1,7 @@
 import React from "react";
 import hero2 from "../../assets/hero2.png";
 import misc from "../../assets/misc.png";
+import { Link } from "react-router-dom";
 
 const Student = () => {
   return (
@@ -24,9 +25,12 @@ const Student = () => {
             page
           </p>
           <div className="mt-5">
+            <Link to="/course" onClick={() => window.scrollTo(0, 0)}>
             <button className="px-8 py-3 bg-btn1 text-white rounded-lg hover:bg-btn1/85 duration-300 transition-colors cursor-pointer font-semibold">
               Start learning today
             </button>
+            </Link>
+            
           </div>
         </div>
       </div>

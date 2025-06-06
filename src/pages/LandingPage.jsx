@@ -14,6 +14,7 @@ import Courses from '../components/landing/Courses'
 import Feedback from '../components/landing/Feedback'
 import Faq from '../components/landing/Faq'
 import Footer from '../components/landing/Footer'
+import { Link } from 'react-router-dom'
 
 function LandingPage() {
   const [currentImage, setCurrentImage] = useState(1); // Start with middle image
@@ -30,7 +31,7 @@ function LandingPage() {
   return (
     <div className="min-h-screen fade-in">
         <Navbar/>
-        <div className="pt-2 pb-16"> {/* Increased padding */}
+        <div className="pt-2 pb-6"> {/* Increased padding */}
           <div className='flex flex-col md:flex-row justify-between items-center px-6 md:px-8 max-w-7xl mx-auto gap-12'>
             <div className="w-full md:w-1/2 space-y-4">
               <h1 className="text-black font-bold md:text-[38px] text-2xl ">
@@ -42,12 +43,16 @@ function LandingPage() {
                 Whether you're trying to grow your tech skills or launch something for your business, DevSentinelSolutions helps you do it well — no hype, just real work that pays off.
               </p>
               <div className="flex gap-4 pt-4">
+                <Link to="/course">
                 <button className="px-6 py-3 bg-btn1 text-white rounded-lg font-bold hover:bg-btn1 transition-colors">
                   Start learning now
                 </button>
+                </Link>
+                <Link to="/contact">
                 <button className="px-6 py-3 text-btn1 bg-btn2 border-btn1 border-1 font-bold rounded-lg hover:border-btn1 transition-colors">
                   partner with us today
                 </button>
+                </Link>
               </div>
             </div>
             <div className="w-full md:w-1/2 relative">
@@ -84,12 +89,12 @@ function LandingPage() {
             </div>
           </div>
           {/* trusted by */}
-          <div className='w-full py-12 mt-16'>
+          <div className='w-full py-8'>
             <div className='max-w-7xl mx-auto px-4 md:px-8'>
-              <h1 className='text-black font-bold text-xl  mb-8'>
+              {/* <h1 className='text-black font-bold text-xl  mb-8'>
                 Trusted by learners and teams from Microsoft, Zoom, AWS, and more.
-              </h1>
-              <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8 place-items-center'>
+              </h1> */}
+              {/* <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8 place-items-center'>
                 {[
                   { src: microsoft, alt: "Microsoft" },
                   { src: miva, alt: "Miva" },
@@ -106,7 +111,7 @@ function LandingPage() {
                     />
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
           {/* why people chose */}
@@ -141,12 +146,14 @@ function LandingPage() {
               Whether you want to build something for your business or learn a new skill, we're here to help you get started.
             </p>
             <div className='flex flex-col md:flex-row mt-6 justify-center gap-4 px-4'>
+              <Link to="/course">
               <button className='px-4 font-semibold py-2 rounded-lg text-btn1 bg-white w-full md:w-auto'>
                 Start Learning Today
               </button>
-              <button className='px-4 font-semibold py-2 border border-white rounded-lg text-white bg-btn1 w-full md:w-auto'>
-                Build Your Product
-              </button>
+              </Link>
+                {/* <button className='px-4 font-semibold py-2 border border-white rounded-lg text-white bg-btn1 w-full md:w-auto'>
+                  Build Your Product
+                </button> */}
             </div>
           </div>
           {/* footer */}

@@ -10,9 +10,9 @@ function About() {
     <div className="fade-in">
       <Navbar />
       <div className="flex flex-col items-center gap-4 my-20 lg:mx-0 mx-5">
-        <p className="text-sm text-text bg-text/10 font-semibold items-center px-3 py-1 border rounded-2xl">
+        {/* <p className="text-sm text-text bg-text/10 font-semibold items-center px-3 py-1 border rounded-2xl">
           About us
-        </p>
+        </p> */}
         <h1 className="lg:text-5xl text-2xl font-bold mb-0 lg:mb-4">
           Who We Are and Why it Matters
         </h1>
