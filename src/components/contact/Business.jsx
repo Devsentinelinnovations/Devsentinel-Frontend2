@@ -14,7 +14,7 @@ const Business = () => {
             Whether you're a startup founder looking to turn your ideas into
             reality, a small business owner looking to establish your presence
             online or a big enterprise looking to fix things in your application
-            or train your staffs, we're here for you.
+            or train your staff, we're here for you.
           </p>
           <div className="mt-5">
             <button className="px-8 py-3 bg-btn1 text-white rounded-lg hover:bg-btn1/85 duration-300 transition-colors font-semibold cursor-pointer">

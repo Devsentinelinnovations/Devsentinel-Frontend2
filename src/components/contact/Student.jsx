@@ -22,7 +22,7 @@ const Student = () => {
             Whether you're looking to start a new career in tech or upskill your
             level in tech, we're here for you, click the button below, select
             the course suitable for you and fill the google form course detail
-            page
+            page.
           </p>
           <div className="mt-5">
             <Link to="/course" onClick={() => window.scrollTo(0, 0)}>

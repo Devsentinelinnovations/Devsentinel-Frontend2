@@ -47,7 +47,7 @@ function Courses() {
       id: 4,
       image: CCNA,
       title: "CCNA",
-      description: "Prepare for the Cisco Certified Network Associate (CCNA) certification by gaining a solid foundation in networking. This course covers key concepts like IP addressing, routing and switching, network security, and troubleshooting, equipping you with the skills needed to configure and manage modern network infrastructures",
+      description: "Prepare for the Cisco Certified Network Associate (CCNA) certification by gaining a solid foundation in networking. This course covers key concepts like IP addressing, routing and switching, network security, and troubleshooting, equipping you with the skills needed to configure and manage modern network infrastructures.",
     },
        {
       id: 5,

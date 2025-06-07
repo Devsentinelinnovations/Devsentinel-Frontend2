@@ -34,7 +34,7 @@ function Footer() {
             <h3 className="text-lg font-bold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><Link to="/" className="text-[#667185] hover:text-btn1" onClick={() => window.scrollTo(0, 0)}>Home</Link></li>
-              <li><Link to="/about" className="text-[#667185] hover:text-btn1" onClick={() => window.scrollTo(0, 0)}>About Us</Link></li>
+              <li><Link to="/about" className="text-[#667185] hover:text-btn1" onClick={() => window.scrollTo(0, 0)}>About</Link></li>
               <li><Link to="/course" className="text-[#667185] hover:text-btn1" onClick={() => window.scrollTo(0, 0)}>Courses</Link></li>
               <li><Link to="/contact" className="text-[#667185] hover:text-btn1" onClick={() => window.scrollTo(0, 0)}>Contact</Link></li>
             </ul>
@@ -57,10 +57,10 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Connect</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-[#667185] hover:text-btn1">Twitter</a></li>
-              <li><a href="#" className="text-[#667185] hover:text-btn1">LinkedIn</a></li>
-              <li><a href="#" className="text-[#667185] hover:text-btn1">Facebook</a></li>
-              <li><a href="#" className="text-[#667185] hover:text-btn1">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/devsentinel-innovations/" className="text-[#667185] hover:text-btn1">Linkedln</a></li>
+              <li><a href="https://www.facebook.com/share/16ekbk5ESX/" className="text-[#667185] hover:text-btn1">Facebook</a></li>
+              <li><a href="https://www.instagram.com/devsentinelinnovations?igsh=MW1nZ3lodmoyNzdzeQ==" className="text-[#667185] hover:text-btn1">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@_devsentinelhub?_t=ZS-8wyy8YKY4vw&_r=1" className="text-[#667185] hover:text-btn1">Tiktok</a></li>
             </ul>
           </div>
         </div>
