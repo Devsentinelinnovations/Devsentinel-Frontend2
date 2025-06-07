@@ -17,9 +17,13 @@ const Business = () => {
             or train your staff, we're here for you.
           </p>
           <div className="mt-5">
-            <button className="px-8 py-3 bg-btn1 text-white rounded-lg hover:bg-btn1/85 duration-300 transition-colors font-semibold cursor-pointer">
-              Partner with us today
-            </button>
+          <a
+        href="https://wa.me/2349134793367?text=Hi%20DevSentinel!%20I'm%20interested%20in%20your%20services."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-btn1 text-white px-6 py-2 rounded-md transition flex items-center gap-2">
+        Partner With Us Today
+      </a>
           </div>
         </div>
       </div>

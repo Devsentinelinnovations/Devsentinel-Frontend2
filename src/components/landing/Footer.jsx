@@ -72,8 +72,6 @@ function Footer() {
             <div className="flex flex-wrap gap-3 mb-2 md:mb-0">
               <Link to="/terms" className="text-sm text-gray-600 hover:text-btn1">Terms of Service</Link>
               <Link to="/privacy" className="text-sm text-gray-600 hover:text-btn1">Privacy Policy</Link>
-              <Link to="/security" className="text-sm text-gray-600 hover:text-btn1">Security</Link>
-              <Link to="/sitemap" className="text-sm text-gray-600 hover:text-btn1">Sitemap</Link>
             </div>
             {/* Copyright */}
             <div className="text-sm text-gray-600">
