@@ -50,7 +50,7 @@ function LandingPage() {
                 </Link>
                 <Link to="/contact">
                 <button className="px-6 py-3 text-btn1 bg-btn2 border-btn1 border-1 font-bold rounded-lg hover:border-btn1 transition-colors">
-                  partner with us today
+                  Partner With us Today
                 </button>
                 </Link>
               </div>
