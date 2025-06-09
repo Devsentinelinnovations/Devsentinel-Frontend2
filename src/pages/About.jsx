@@ -17,7 +17,7 @@ function About() {
           Who We Are and Why it Matters
         </h1>
         <p className="lg:text-lg text-base text-center font-semibold max-w-3xl">
-          At DevSentinelSolutions, we help people and business grow through
+          At Devsentinel Innovations, we help people and business grow through
           technology. whether you're learning how to build your next digital
           product, we meet you where you are and guide you forward-step by step,
           no pressure, no tech talk.
@@ -44,7 +44,7 @@ function About() {
       </div>
 
       <Values />
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </div>
   );

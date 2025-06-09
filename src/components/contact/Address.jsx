@@ -40,19 +40,36 @@ const Address = () => {
           </div> */}
           <div className="flex flex-col items-start gap-1">
             <span className="text-sm text-text3 font-bold">Email</span>
-            <p className="font-semibold text-base md:text-sm lg:text-base font-sans">
+            <a
+              href="mailto:devsentinelsolutions@gmail.com"
+              className="font-semibold text-base md:text-sm lg:text-base font-sans text-[#000] hover:text-blue-600"
+            >
               devsentinelsolutions@gmail.com
-            </p>
+            </a>
           </div>
+
           <div className="flex flex-col items-start gap-1">
             <span className="text-sm text-text3 font-bold">Contact</span>
-            <p className="font-semibold text-base md:text-sm lg:text-base font-sans">
+
+            <a
+              href="https://wa.me/12402471548"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-base md:text-sm lg:text-base font-sans text-[#000] hover:text-green-600"
+            >
               +1(240) 247-1548
-            </p>
-            <p className="font-semibold mt-2 text-base md:text-sm lg:text-base font-sans">
+            </a>
+
+            <a
+              href="https://wa.me/2349134793367"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold mt-2 text-base md:text-sm lg:text-base font-sans text-[#000] hover:text-green-600"
+            >
               +(234) 913-479-3367
-            </p>
+            </a>
           </div>
+
           <div className="flex flex-col items-start gap-2 mb-2">
           <span className="text-sm text-text3 font-bold">Follow Us</span>
           
